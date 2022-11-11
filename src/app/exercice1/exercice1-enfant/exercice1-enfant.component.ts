@@ -15,8 +15,6 @@ export class Exercice1EnfantComponent implements OnInit {
     if (this.count >= 0) {
       this.count++;
       this.countUpdate.emit(this.count);
-    } else {
-      this.count = 0;
     }
   }
 
